@@ -35,7 +35,7 @@ const About = () => {
             <div className="w-2 h-2 bg-white rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[59vh] rounded-xl bg-[#7385316b]"></div>
+        <div className="w-1/2 h-[59vh] mb-9 rounded-xl bg-[#7385316b]"></div>
       </div>
     </>
   );
