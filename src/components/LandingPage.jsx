@@ -10,7 +10,7 @@ const LandingPage = () => {
             <div className="masker">
               <div className="w-fit flex items-center">
                 {idx ==1 && (<div className="rounded-md mr-2 relative -top-[1.7vw] w-[9vw] h-[6vw] bg-green-500"></div>)}
-              <h1 className='leading-[7.2vw] uppercase text-[9.5vw] font-["Founders_Grotesk_X-Condensed"] font-semibold'>
+              <h1 key={idx} className='leading-[7.2vw] uppercase text-[9.5vw] font-["Founders_Grotesk_X-Condensed"] font-semibold'>
                 {item}
               </h1>
               </div>
