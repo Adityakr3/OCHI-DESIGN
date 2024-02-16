@@ -41,11 +41,10 @@ const Eyes = () => {
                 <div className="w-8 h-8 rounded-full bg-white"></div>
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </div>
   );
 };
-
 export default Eyes;

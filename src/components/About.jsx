@@ -35,7 +35,9 @@ const About = () => {
             <div className="w-2 h-2 bg-white rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[59vh] mb-9 rounded-xl bg-[#7385316b]"></div>
+        <div className="w-1/2 overflow-hidden bg-cover bg-center h-[56vh] mb-9 rounded-xl bg-[#7385316b]">
+          <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="" srcset="" />
+        </div>
       </div>
     </>
   );
