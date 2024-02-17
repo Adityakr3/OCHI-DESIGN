@@ -5,7 +5,7 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
 import Featured from './components/Featured'
-import Card3 from './components/card3'
+import Card3 from './components/Card3'
 import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
 
