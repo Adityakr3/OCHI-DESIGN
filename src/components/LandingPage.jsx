@@ -1,18 +1,29 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowDownLong } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
     <div>
-      <div className="w-full h-screen text-zinc-950 bg-White-900 pt-1">
+      <div data-scroll data-scroll-section data-scroll-speed="-.3"  className="w-full h-screen text-zinc-950 bg-White-900 pt-1">
         <div className="testStructue mt-56 px-20">
           {[" WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map((item, idx) => (
             <div className="masker">
               <div className="w-fit flex items-center">
-                {idx ==1 && (<div className="rounded-md mr-2 relative -top-[1.7vw] w-[9vw] h-[6vw] bg-green-500"></div>)}
-              <h1 key={idx} className='leading-[7.2vw] uppercase text-[9.5vw] font-["Founders_Grotesk_X-Condensed"] font-semibold'>
-                {item}
-              </h1>
+                {idx == 1 && (
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "9vw" }}
+                    transition={{ease:[0.76, 0, 0.24, 1], duration:2}}
+                    className="rounded-md overflow-hidden mr-2 relative -top-[1.7vw] w-[9vw] h-[6vw] bg-cover bg-center"
+                  ><img className="h-[6vw]" src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" srcset="" /> </motion.div>
+                )}
+                <h1
+                  key={idx}
+                  className='leading-[7.2vw] uppercase text-[9.5vw] font-["Founders_Grotesk_X-Condensed"] font-semibold'
+                >
+                  {item}
+                </h1>
               </div>
             </div>
           ))}
