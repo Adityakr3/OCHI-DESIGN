@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Neue Montreal;
+  src: url(/public/fonts/NeueMontreal-Regular.woff) format("truetype");
+}
 
 @font-face {
-    font-family: ftff;
-    src: url(/public/fonts/NeueMontreal-Regular.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: primer;
-    src: url(/public/fonts/FoundersGrotesk-Semibold.ttf)  format("truetype");
-  }
+  font-family: Founders_Grotesk_X-Condensed;
+  src: url(/public/fonts/FoundersGrotesk-Semibold.ttf) format("truetype");
+}
