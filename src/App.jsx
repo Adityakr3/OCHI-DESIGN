@@ -15,7 +15,7 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
-      <div className="w-full text-zinc-950  min-h-screen bg-[#f1f1f1]">
+      <div className=" w-full text-zinc-950  min-h-screen bg-[#f1f1f1]">
        <Navbar/>
        <LandingPage/>
        <Marquee/>
